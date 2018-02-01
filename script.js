@@ -67,20 +67,3 @@ function fib(n) {
   return fib;
 }
 
-// translate to pig latin
-
-function toPigLatin(str) {
-  var pigLatin = '';
-  var vowel = new RegExp('[aeiouy]', "g");
-
-  if (str[0].match(vowel)) {
-    pigLatin = str + 'way';
-
-  } else {
-
-    var vowelIndice = str.indexOf(str.match(vowel)[0]);
-    pigLatin = str.substr(vowelIndice) + str.substr(0, vowelIndice) + 'ay';
-  }
-
-  return pigLatin;
-}
