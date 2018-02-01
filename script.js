@@ -1,5 +1,5 @@
 //Given a string s, find and return the first instance of a non-repeating character in it. If there is no such character, return '_'
-
+//for testing
 const s = "abacabad"
 
 const z = "abacabaabacaba"
